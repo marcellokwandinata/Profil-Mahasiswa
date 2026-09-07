@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 60px 20px;          
+    background-image: url('image/header.jpg'); 
+    background-size: cover;        
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header h1, 
+header p {
+    color: #ffffff; 
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    background: #333333;
+}
+
+nav a {
+    color: #f6f7f6;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.doodle-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    background-image: url('image/background.jpg'); 
+    background-size: cover;       
+    background-attachment:fixed; 
+}
+
+article {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1050px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+article p {
+    margin: 6px 0;
+}
+
+article hr {
+    border: none;
+    border-top: 1px solid #70d6e3;
+    margin: 20px 0;
+}
+
+.foto-profil {
+    width: 120px;        
+    height: 120px;       
+    object-fit: cover;   
+    border-radius: 50%;  
+    border: 3px solid #ffffff;
+    display: block;
+    margin: 10px 0 15px 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #ff2727;
+}
+
